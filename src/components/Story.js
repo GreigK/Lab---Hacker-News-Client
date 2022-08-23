@@ -7,7 +7,7 @@ const Story = ({random}) => {
     return (
         <div>
             <ul>
-            {random.title}
+            <p><a href={random.url}>{random.title}</a></p>
             </ul>
         </div>
         

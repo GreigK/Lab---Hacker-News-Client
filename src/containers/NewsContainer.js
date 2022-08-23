@@ -44,7 +44,7 @@ const NewsContainer = () =>{
 
     return(
         <div>
-            <h2>Hello world im the container</h2>
+            <h2>THIS IS THE GREATEST NEWS APP. EVER. PERIOD</h2>
             <NewsForm filter={filter} handleChange={handleChange}/>
             <LastestStory news={filterNews}/>
         </div>
